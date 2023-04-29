@@ -1,0 +1,37 @@
+01. Conhecendo o Nest
+Você aprendeu a:
+  Compreender o que é o Nest, e assim saber algumas de suas características.
+  A usar a CLI do Nest, para criar projetos.
+  Usar o npm para iniciar o servidor de do Nest para receber requisições.
+
+
+02. Criando primeiros endpoints
+Você aprendeu a:
+  Criar rotas que respondem aos métodos GET e POST do HTTP usando os decorators @Get, @Post em conjunto com o @Controller.
+  Capturar dados que são enviados no corpo da requisição POST com o decorator @Body.
+  Criar módulos no Nest.
+  Usar a injeção de dependências com o @Injectable e configurando corretamente as classes no módulo.
+
+
+03. Validação Síncrona
+Você aprendeu a:
+  O que são Pipes e seus casos de uso;
+  Como habilitar o pipe de validação global do Nest;
+  Como validar dados de requests com DTOs usando decorators do class-validator e class-transformer;
+  Validações mais complexas com objetos aninhados e arrays.
+
+
+04. Validação Assíncrona
+Você aprendeu a:
+  Criar uma validação assíncrona para aplicar validações complexas;
+  Criar um decorator para aplicar validações customizadas;
+  Usar o gestor de dependência do Nest para injetar objetos nas validações customizadas.
+
+
+05. Finalizando o CRUD
+Você aprendeu a:
+  Usar o @PUT para atualizar um recurso na API.
+  Usar o @Delete para remover um recurso da API.
+  Criamos entidades para isolar objetos importantes do nosso contexto de negócio.
+  Usar o padrão DTO para isolar objetos de entrada e saída da nossa API.
+  Usar o @IsOptional para validar dados caso eles sejam enviados no corpo da requisição.
